@@ -131,3 +131,6 @@ iterativamente.
     - JDBC URL: jdbc:h2:mem:testdb
     - User Name: sa
     - Password: password
+  - Então executar a consulta: "SELECT * FROM FILMS"
+- Testes unitários:
+  - Testes adicionados apenas para a classe FilmService, que é a única que possui alguma lógica a ser avaliada.
