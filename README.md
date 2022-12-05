@@ -23,7 +23,7 @@ que repetidos.
 ### Maven spring-boot:run
 ````bash
 # Acessar a raiz do repositório
-# Executar a aplicação do desafio 1, neste caso com o profile "mock", basta removê-lo para utilizar a real API
+# Executar a aplicação do desafio 1, neste caso com o profile "mock", basta removê-lo para utilizar a SWAPI
 mvn spring-boot:run -D"spring-boot.run.profiles=mock" -f ./desafio_1/pom.xml
 
 # Após a aplicação anterior iniciar, basta executar a aplicação do desafio 2
