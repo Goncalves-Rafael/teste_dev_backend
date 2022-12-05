@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.conexa</groupId>
-	<artifactId>test.dev.backend</artifactId>
+	<artifactId>test.dev.backend.desafio_1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Teste Dev Backend</name>
-	<description>Teste Dev Backend</description>
+	<name>Teste Dev Backend - Desafio 1</name>
+	<description>Teste Dev Backend - Desafio 1</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
