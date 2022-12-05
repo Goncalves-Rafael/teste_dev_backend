@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "9f317178-ec1c-47d2-b15a-567992c66a7c",
+		"name": "Teste - Conexa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Luke Skywalker films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/luke/films?title=teste&episode_id=3&page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"luke",
+						"films"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "teste"
+						},
+						{
+							"key": "episode_id",
+							"value": "3"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

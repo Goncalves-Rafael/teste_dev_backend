@@ -1,5 +1,12 @@
 # Teste Dev Backend
 
+### Configurações Utilizadas
+
+---
+
+- Java 11
+- Maven 3.8.6
+
 ## Problemas
 
 ---
@@ -39,6 +46,8 @@ java -jar -D"spring.profiles.active=mock" .\desafio_1\target\test.dev.backend.de
 java -jar .\desafio_2\target\test.dev.backend.desafio_2-0.0.1-SNAPSHOT.jar
 ````
 
+Obs.: Uma collection do Postman também está disponível [aqui](TesteConexa.postman_collection.json) para efetuar uma
+requisição get na API do desafio 1 com os diferentes filtros disponíveis.
 
 ## Desafio 1
 
