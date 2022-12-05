@@ -43,7 +43,7 @@ public class SWService {
                         }
                     })
                     .filter(filmResponse -> filmRequest.getEpisodeId() == null || filmResponse.getEpisodeId().equals(filmRequest.getEpisodeId()))
-                    .filter(filmResponse -> filmRequest.getTitle() == null || filmResponse.getTitle().contains(filmRequest.getTitle()))
+                    .filter(filmResponse -> filmRequest.getTitle() == null || filmResponse.getTitle().toLowerCase().contains(filmRequest.getTitle().toLowerCase()))
                     .collect(Collectors.toList());
         } else {
             films = Collections.emptyList();
